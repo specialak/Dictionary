@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/6859794/googles-define-through-an-api
+
+
+https://developers.google.com/custom-search/json-api/v1/overview?csw=1
+
+https://developers.google.com/analytics/solutions/articles/reporting-apps-script
