@@ -10,9 +10,8 @@ try:
     example =final_soup.find('div',{'class':'bkWMgd'}).find('div',{'class':'ifM9O'}).find('div',{'class':'qtR3Y'}).find('span').text
     print(example)
 except:
-    pass   
-try:
-    example =final_soup.find('div',{'class':'g knavi obcontainer mod'}).findAll('div',{'class':'lr_dct_ent vmod'})[0].find('div',{'class':'PNlCoe'}).find('span').text
-    print(example)
-except:
-    print("Please check the word again")
+    try:
+        example =final_soup.find('div',{'class':'g knavi obcontainer mod'}).findAll('div',{'class':'lr_dct_ent vmod'})[0].find('div',{'class':'PNlCoe'}).find('span').text
+        print(example)
+    except:
+        print("Please check the word again")
